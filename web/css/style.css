@@ -1,0 +1,339 @@
+body {
+
+
+
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
+}
+
+
+
+a {
+
+    color: #00B7FF;
+
+}
+
+
+
+/* .carousel-item{
+
+  height: 100px!important;
+
+}
+
+.carousel-item img{
+
+  height: 100px!important;
+
+} */
+
+
+
+
+
+/* 自定义样式 */
+
+.pointer :hover{
+
+    cursor: pointer!important;
+
+}
+
+
+
+.font-11{
+
+    font-size: 11px!important;
+
+}
+
+
+
+.font-10{
+
+    font-size: 10px!important;
+
+}
+
+
+
+.font-9{
+
+    font-size: 9px!important;
+
+}
+
+/* 自定义样式 */
+
+
+
+.user-op:hover{
+
+    text-decoration: underline;
+
+
+
+}
+
+
+
+/* 首页中待售货物 */
+
+.goods-item{
+
+    margin-bottom: 20px;
+
+}
+
+
+
+.goods-item .picframe{
+
+    height: 12.4rem;
+
+    border:1px solid #dee2e6;
+
+    border-radius:.25rem;
+
+    padding-top: .15rem;
+
+}
+
+
+
+.goods-item .content {
+
+    height: 12rem;
+
+    overflow: hidden;
+
+}
+
+
+
+.goods-item .goods-cp{
+
+    position: relative;
+
+    top: 55%;
+
+    left: 50%;
+
+    -webkit-transform: translate(-50%, -50%);
+
+    -moz-transform: translate(-50%, -50%);
+
+    -ms-transform: translate(-50%, -50%);
+
+    -o-transform: translate(-50%, -50%);
+
+    transform: translate(-50%, -50%);
+
+    cursor: pointer;
+
+}
+
+/* 首页中待售货物 */
+
+
+
+/* 首页中待售货物-卖家 */
+
+.seller-info{
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: flex-end;
+
+}
+
+
+
+.seller-info .seller-nickname{
+
+    font-size: 12px;
+
+}
+
+
+
+.seller-info .seller-nickname:hover{
+
+    cursor: pointer;
+
+    text-decoration: underline;
+
+}
+
+
+
+/* 首页中待售货物-卖家 */
+
+
+
+/* 登录 */
+
+.loginInfoDiv{
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: row;
+
+    margin: 5px 0;
+
+}
+
+
+
+#forgotpw, #register, #changeCaptcha{
+
+    font-size: 10px;
+
+    color: black;
+
+}
+
+
+
+#login-input-frame{
+
+    padding-bottom: 0;
+
+    background-color: rgba(0,0,0,0);
+
+    margin-top: 100px;
+
+    border: 2px solid rgb(68, 132, 200);
+
+    border-radius: 10px;
+
+}
+
+
+
+#login-input-frame .form-group{
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+/* 登录 */
+
+
+
+/* 消息界面 */
+
+.contacts-list .active{
+
+    background: #EEE;
+
+    border-radius: .25rem;
+
+}
+
+
+
+.contacts{
+
+    background: transparent;
+
+    border: none;
+
+    padding: .25rem;
+
+    cursor: pointer;
+
+}
+
+
+
+.message-contacts .message-content{
+
+    background: #EEE;
+
+    color: black;
+
+}
+
+
+
+.message-contacts{
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: flex-start;
+
+}
+
+
+
+.message-self{
+
+    display: flex;
+
+    flex-direction: row-reverse;
+
+    justify-content: flex-start;
+
+}
+
+
+
+.message-self .message-content{
+
+    background: rgb(68, 132, 200);
+
+    color: #EEE;
+
+}
+
+
+
+.message-content{
+
+    border-radius: .5rem;
+
+    padding: .5rem;
+
+}
+
+
+
+/* 消息界面 */
+
+
+
+/* 订单界面 */
+
+.order-item{
+
+    display: flex;
+
+    flex-direction: row;
+
+
+
+}
+
+
+
+.order-item .goods-info{
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+
+/* 订单界面 */
